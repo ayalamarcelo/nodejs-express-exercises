@@ -1,0 +1,13 @@
+Node.JS
+
+Node es un entorno de ejecucion de JS. Es decir, un sitio donde podemos
+ejecutar JS.
+Podemos ejecutarlo en el backend, en la terminal. Sin ser un navegador. 
+Asincrono, entrada salida de datos. Arquitectura orientada a eventos.
+
+
+globalThis: Es una variable global en toda nuestra app en Node.js.
+console.log sale de globalThis.
+
+
+min30
