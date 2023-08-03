@@ -1,0 +1,40 @@
+Node.JS
+
+Node es un entorno de ejecucion de JS. Es decir, un sitio donde podemos
+ejecutar JS.
+Podemos ejecutarlo en el backend, en la terminal. Sin ser un navegador. 
+Asincrono, entrada salida de datos. Arquitectura orientada a eventos.
+
+
+globalThis: Es una variable global en toda nuestra app en Node.js.
+console.log sale de globalThis.
+
+En el navegador "windows" es la variable global. Y es node es globalThis.
+Variable global que vamos a poder acceder en toda nuestra app.
+
+Todo sale de variable global (fetch, promise, Math etc).
+
+Algo crucial en node.js.
+
+function sum(a, b) {
+    return a + b
+}
+
+console.log(sum(1, 2))
+
+Separar nuestro codigo en ficheros.
+
+Separ en otro archivo, Se llama como en js modulos.
+Forma clasica para exportar modulo.
+
+module.exports = sum
+
+Exporta el modulo sum, para importarlo =>
+
+const sum + require('./sum')
+
+
+index.mjs // Le cambio la extension js por mjs
+
+node nos da una biblioteca enorme de modulos nativos que nos va a
+dar acceso a internet.
