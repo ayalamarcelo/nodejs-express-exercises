@@ -1,6 +1,0 @@
-coding
-coding
-coding
-conding
-
-problema de la sincronia y como se bloquea el hilo
