@@ -13,8 +13,15 @@ Se aprovecha de la síncronia y cómo espera eventos para simular que puede hace
 
 Vamos a poder usar node como en el navegador. En node Js no tenemos "window". El objeto global de window no existe, no tenemos una ventana donde estamos mostrando los datos. Si tenemos un objeto global, pero no es windows: 
 
-~ console.log(globalThis) ~
+`console.log(globalThis)`
 
 # 24:33/ 2:18:30
 
 [Link](https://www.youtube.com/watch?v=yB4n_K7dZV8&list=PLUofhDIg_38qm2oPOV-IRTTEKyrVBBaU7&index=1)
+
+Es la variable global tanto de node, como de javascript y el navegador. Es una variable global en toda nuestra aplicación. Vamos a poder acceder a ella no importa donde estemos.
+En el navegador apunta a window. En node.js esto es lo que apunta en realidad es a "global". `globalThis` es la forma correcta de referirnos a ella.
+
+**global <-- globalThis --> window**
+
+
