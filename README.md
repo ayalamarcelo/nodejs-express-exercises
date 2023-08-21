@@ -92,4 +92,4 @@ Path es vamos a construir nuevas rutas de archivos, saber si un archivo tiene un
 Es mala practica crearlas.
 `./content/subfolder/test.txt` // X esto esta prohibido, por el sistema operativo, las barras unix son en unix // -> /, pero en windows -> \
 
-## El comando LS
+# 1:19:53
