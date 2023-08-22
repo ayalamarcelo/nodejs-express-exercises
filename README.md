@@ -92,4 +92,17 @@ Path es vamos a construir nuevas rutas de archivos, saber si un archivo tiene un
 Es mala practica crearlas.
 `./content/subfolder/test.txt` // X esto esta prohibido, por el sistema operativo, las barras unix son en unix // -> /, pero en windows -> \
 
+## Comando LS
+
+Podés ir a cualquier carpeta al poner ls. Es como un *dir*, nos dice si tengo ficheros, cuanto ocupan, etc.
+
 # 1:19:53
+
+# Objeto Process
+
+Es un objeto global que proporciona información y control sobre el proceso actual de ejecución.
+`console.log(process.argv)` forma en la que vamos a poder recuperar los argumentos.
+
+# Map lo hace todo en asincrono, el map no para el proceso de await, no esta esperando de forma secuencial, el mapeo funciona ocurre en paralelo. Para hacerlo secuencial `for of`.
+
+# 1:42:36
