@@ -1,0 +1,15 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "Node es un entorno de ejecución de JS, esto quiere decir que es un sitio donde puedes utilizar Javascript. Significa que vamos a poder utilizarlo en el backend, en nuestra terminal, incluso en dispositivos.\r Es un entorno donde puedes utilizar JS sin ser navegador. Es asíncrono con \"in\" y \"out\", entrada y salida de datos. Lo importante es saber que su arquitectura esta orientada a eventos.\r Cuando estamos utilizando Node.JS, estamos ejecutando nuestro javascript en el mismo motor que el de google chrome. Es el mismo motor, pero no es el mismo entorno.",
+  "main": "1-os-info.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  }
+}
+

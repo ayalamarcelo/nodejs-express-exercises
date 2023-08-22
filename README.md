@@ -106,3 +106,49 @@ Es un objeto global que proporciona información y control sobre el proceso actu
 # Map lo hace todo en asincrono, el map no para el proceso de await, no esta esperando de forma secuencial, el mapeo funciona ocurre en paralelo. Para hacerlo secuencial `for of`.
 
 # 1:42:36
+
+## NPM (node package manager)
+
+Es un administrador de node y el registro de paquetes más grande de código que existe.
+
+1. Registro de paquetes de código abierto y dependencias.
+2. También es una línea de comando.
+
+`pnpm` para instalar las dependencias.
+
+Diferencias, el registro donde estan hospedas las dependencias y luego la linea de comandos para instalar, manejar y administras nuestras dependencias.
+
+# Comandos NPM
+
+`npm init` crea un package json, da una descripción en json con dependencias, etc.
+
+`npm init -y` saltar los pasos
+
+`npm uninstall xxxx` elimina paquetes y actualiza json y elimina la dependencia
+
+
+
+* Comandos que podes ejecutar, para levantar el projecto, para ejecutar test, etc. *
+
+*Picocolors* `npm i picocolors`
+
+// 1.0.0 -> semantic versioning
+// x.y.z -> x la major y es cuando se rompe la compatibilidad hacia atrás
+// x.y.z -> y la minor y es cuando se añaden nuevas funcionalidades
+// x.y.z -> z y la patch y es cuando se arreglan bugs
+
+*TypeScript no sigue la semantic versioning*
+
+## Dependencias de producción
+
+De producción, nuestra aplicación lo necesita para funcionar, por ejemplo: `picocolors`.
+
+## Dependencias de desarrollo
+
+instación de dependencias de desarrollo `npm install standard -D` te busca errores. `-D` se instala como dependencia de desarrollo `--development` hay que indicar que es una dependencia de desarrollo.
+
+# Separación de tipos de dependencias en json
+
+Siempre evita instalar lo que no tiene sentido instalar. `npm install` se instala todo.
+
+# 2:00:42
