@@ -152,3 +152,17 @@ instación de dependencias de desarrollo `npm install standard -D` te busca erro
 Siempre evita instalar lo que no tiene sentido instalar. `npm install` se instala todo.
 
 # 2:00:42
+
+## Primer Servidor web con Node.JS
+
+Vamos a tener la dependencia http, para eso `node:http` esto es un módulo nativo. Qué nos permite http, hacer procesos y conexiones con el protocolo http como por ejemplo crear un servidor y poder recibir request, peticiones.
+
+Un servidor puede hacer solo dos cosas: o recibir una petición o devolver una respuesta. Por eso tendremos un callback que va a gestionar la request y el response. Asi cada vez que llegue una request vamos a poder responderle con algo.
+
+// cuando recibo una peticion voy a devolver y responder y terminar la comunicacion con el mesje 'hola mundo'.
+
+El puerto 0, lo que va a hacer es que automáticamente va a buscar el primer puerto que encuentre que esté disponible.
+El server lo podemos utilizar para recuperar el puerto.
+
+## Aplicacion con node que nos diga el puerto disponible
+
